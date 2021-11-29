@@ -1,0 +1,22 @@
+.persona__wrapper{
+    position: absolute;
+    top: 500px;
+
+    min-height: 300px;
+    min-width: 100%;
+
+    background-color: rgb(255, 153, 0);
+}
+
+.persona__wrapper:before {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-bottom: 100px solid rgb(255, 153, 0); 
+    border-left: 496px solid transparent;
+    left: 0px;
+    top:-100px;
+    bottom: 0;
+}

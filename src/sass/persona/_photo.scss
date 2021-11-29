@@ -1,0 +1,47 @@
+.photo_thumb{
+    position: relative;
+
+    width: 100%;
+
+    overflow: hidden;
+}
+
+.photo_label{
+    position: absolute;
+    top: 424px;
+    left: -8px;
+    z-index: 2;
+
+    width: 513px;
+
+    display: flex;
+
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-weight: 700;
+    font-size: 18px;    
+
+    transform:rotate(-11.4deg);
+}
+
+.photo_label__left, .photo_label__right{
+    width: 20%;
+}
+
+.photo_label__left{
+    background: linear-gradient(270deg, var(--color-green), transparent 100%);
+}
+
+.photo_label__right{
+    background: linear-gradient(270deg, transparent, var(--color-green) 100%);
+}
+
+.photo_label__center{
+    width: 60%;
+    text-align: center;
+
+    padding: 3px;
+
+    background-color: var(--color-green);
+}
