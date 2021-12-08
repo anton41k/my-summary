@@ -1,0 +1,36 @@
+.title {
+    text-align: center;
+    position: relative;
+    left: -15px;
+
+    font-size: 20px;
+    color: #fff;
+    text-shadow: 0 1px rgba(0,0,0,.8);
+
+    margin: 0 -30px 30px -30px;
+    padding: 10px 0;
+
+    background: #5c5c5c;
+    background-image:  linear-gradient(rgba(255,255,255,.3), rgba(255,255,255,0));
+    box-shadow: 0 2px 0 rgba(0,0,0,.3);
+
+    width: 100%;
+
+    border-top-left-radius: 4px;
+    border-bottom-right-radius: 25px 50%;
+    border-top-right-radius: 25px 50%;
+}
+
+.title:before {
+    content: '';
+    position: absolute;
+    border-style: solid;
+    border-color: transparent;
+    bottom: -10px;
+}
+
+.title:before {
+    border-width: 0 10px 10px 0;
+    border-right-color: #222;
+    left: 0;
+}

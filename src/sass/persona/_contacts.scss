@@ -1,0 +1,18 @@
+.list_contacts {
+    position: relative;
+    z-index: 5;
+
+    margin-left: 35px;
+    margin-top: 45px;
+}
+
+.item_contact {
+    display: flex;
+    align-items: center;
+
+    padding-bottom: 10px;
+}
+
+.date_contact {
+    padding-left: 10px;
+}

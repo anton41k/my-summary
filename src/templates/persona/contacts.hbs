@@ -1,0 +1,17 @@
+{{#each this}}
+    <li class='item_contact'>
+        <h2 class="title">{{this.name}}</h2>
+    </li>
+    <li class='item_contact'>
+        <img width="20" src={{this.iconGeoLocal}} />
+        <p class="date_contact">{{this.palce}}</p>
+    </li>
+    <li class='item_contact'>
+        <img width="20" src={{this.iconTel}} />
+        <p class="date_contact">{{this.tel}}</p>
+    </li>
+    <li class='item_contact'>
+        <img width="20" src={{this.iconEmail}} />
+        <p class="date_contact">{{this.email}}</p>
+    </li>
+{{/each}}
